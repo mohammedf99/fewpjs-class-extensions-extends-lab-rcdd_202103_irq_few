@@ -24,7 +24,7 @@ class Triangle extends Polygon {
   }
   
   get isValid() {
-    if (arr.length === 2) return true;
+    if (arr.length === 3) return true;
     else return false;
   }
 }
